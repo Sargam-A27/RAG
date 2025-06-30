@@ -29,6 +29,7 @@ This system uses real-world legal datasets curated for accuracy and relevance:
 | `privacy_qa`  | Privacy policy-based Q\&A pairs               |
 
 🗂️ Project Directory
+
 ├── RAG_Assg_Legal_Documents_Starter.ipynb   # Main notebook
 ├── rag_legal/
 │   ├── corpus/
