@@ -30,19 +30,19 @@ This system uses real-world legal datasets curated for accuracy and relevance:
 
 🗂️ Project Directory
 
-├── RAG_Assg_Legal_Documents_Starter.ipynb   # Main notebook
+├── RAG_Assg_Legal_Documents_Starter.ipynb    # Main notebook
 ├── rag_legal/
 │   ├── corpus/
-│   │   ├── contractnli/                     # NDA texts
-│   │   ├── cuad/                            # Legal clause data
-│   │   ├── maud/                            # M&A documents
-│   │   └── privacy_qa/                      # Privacy Q&A sets
-│   └── benchmark/
+│   │   ├── contractnli/                      # NDAs
+│   │   ├── cuad/                             # Clause annotations
+│   │   ├── maud/                             # M&A contracts
+│   │   └── privacy_qa/                       # Privacy policies
+│   └── benchmark/                            # Evaluation data
 │       ├── contractnli.json
 │       ├── cuad.json
 │       ├── maud.json
 │       └── privacy_qa.json
-└── requirements.txt                         # Required Python packages
+└── requirements.txt                          # Python dependencies
 
 🛠️ System Pipeline
 Load & Clean – Ingest and structure legal content
